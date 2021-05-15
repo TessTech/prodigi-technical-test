@@ -1,0 +1,11 @@
+#bg-image {
+    height: 10px;
+  }
+  
+  h6 {
+    color: blue;
+  }
+
+  .d-none{
+      visibility: hidden;
+  }
