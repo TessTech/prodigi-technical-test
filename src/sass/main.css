@@ -1,20 +1,110 @@
-#bg-image {
-  height: 10px;
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-h6 {
-  color: blue;
+#sign-up-left {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+}
+
+#sign-up-right {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+}
+
+#bg-image {
+  height: 10px;
 }
 
 .d-none {
   visibility: hidden;
 }
 
-h1 {
-  color: purple;
-}
-
 .form-text {
   text-transform: uppercase;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+#sign-up-click-image {
+  position: absolute;
+  clip: rect(0px, 30vw, auto, 0px);
+  height: 100vh;
+}
+
+.check-list {
+  position: absolute;
+  color: #FFFFFF;
+  left: 100px;
+  width: 30%;
+}
+
+.check-list .tick-icon {
+  width: 15px;
+  height: auto;
+}
+
+.check-list#check-list-1 {
+  top: 100px;
+}
+
+.check-list#check-list-2 {
+  top: 200px;
+}
+
+.check-list#check-list-3 {
+  top: 300px;
+}
+
+.check-list#check-list-4 {
+  top: 410px;
+}
+
+.check-list .check-list-text {
+  left: 150px;
+}
+
+.check-list h6 {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  margin: 0px;
+  padding-bottom: 5px;
+  left: 150;
+}
+
+.check-list h6.check-list-text {
+  left: 150px;
+}
+
+.check-list p {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+.check-list p.check-list-text {
+  left: 150px;
+}
+
+#prodigi-logo {
+  position: absolute;
+  top: 30px;
+  left: 20vw;
+  height: 50px;
+  width: auto;
+}
+
+.form-group p {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */

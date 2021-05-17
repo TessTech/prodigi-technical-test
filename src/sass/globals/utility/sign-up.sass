@@ -1,19 +1,114 @@
+//colors
+
 $colorPurpleHeart: #4630D4
 $colorDodgerBlue: #4352FF
 $colorBlack: #000000
 $colorSilverChalice: #a4a4a4
+$colorWhite: #FFFFFF
+$colorLemon: #F7F622
+
+//fonts
+
+$fontFamily: Arial, Helvetica, sans-serif
+
+//units 
+
+$baseUnit: 10px
+
+//sign-up.html
+
+.container
+    display: flex
+
+#sign-up-left
+    flex: 30%
+
+#sign-up-right
+    flex: 30%
 
 #bg-image
     height: 10px
 
-h6
-    color: blue
-
 .d-none
     visibility: hidden
 
-h1
-    color: $colorDodgerBlue
-
 .form-text
     text-transform: uppercase
+    font-size: 10px
+    font-family: $fontFamily
+    color: $colorBlack
+
+#sign-up-click-image
+    position: absolute
+    clip: rect(0px, 30vw, auto, 0px)
+    height: 100vh
+
+.check-list
+    position: absolute
+    color: $colorWhite
+    left: 100px
+    width: 30%
+
+    .tick-icon
+        width: 15px
+        height: auto
+
+    &#check-list-1
+        top: 100px
+
+    &#check-list-2
+        top: 200px
+
+    &#check-list-3
+        top: 300px
+
+    &#check-list-4
+        top: 410px
+
+    .check-list-text
+        left: 150px
+    h6
+        font-size: 10px
+        font-weight: bold
+        font-family: $fontFamily
+        color: $colorWhite
+        margin: 0px
+        padding-bottom: 5px
+        left: 150
+
+        &.check-list-text
+            left: 150px
+    p
+        font-size: 10px
+        font-family: $fontFamily
+        color: $colorWhite
+        margin: 0px
+
+        &.check-list-text
+            left: 150px
+
+#prodigi-logo
+    position: absolute
+    top: 30px
+    left: 20vw
+    height: 50px
+    width: auto
+
+.form-group
+    p
+        font-size: 10px
+        font-family: $fontFamily
+        color: black
+
+.form-control,
+input,
+.btn-primary
+    &:focus
+        box-shadow: 0 0 0 ($baseUnit*0.3) $colorLemon
+
+.form-group
+    p,
+    label
+        font-size: 10px
+        font-family: $fontFamily
+        color: $colorBlack

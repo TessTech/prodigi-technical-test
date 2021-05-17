@@ -6,7 +6,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../sass/main.css" media="screen" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../sass/globals/utility/sign-up.css" media="screen" />
 
 
     <!-- <meta name="schema" content="page" />
@@ -22,9 +25,48 @@
 
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <!-- Easy-to-use interface
+        <!-- <div class="row"> -->
+        <img id="sign-up-click-image" src="../../images/background.png">
+        <!-- put the image here and make it the background -->
+
+        <div id="sign-up-left">
+            <img id="prodigi-logo" src="../../logo/prodigi-logo.png">
+
+            <!-- <div class="col-md-5"> -->
+            <div id="check-list-1" class="check-list">
+                <img class="tick-icon" src="../../icons/tick.png">
+                <h6 class="check-list-text">Easy-to-use interface</h6>
+                <p class="check-list-text">Simple and intuitive; making it easy for customers to turn their
+                    photos
+                    into beautiful books.</p>
+            </div>
+
+            <div id="check-list-2" class="check-list">
+                <img class="tick-icon" src="../../icons/tick.png">
+                <h6 class="check-list-text">Intuitive, quick and simple</h6>
+                <p class="check-list-text">The simple user journey guides your customer through the entire
+                    process.
+                </p>
+            </div>
+
+            <div id="check-list-3" class="check-list">
+                <img class="tick-icon" src="../../icons/tick.png">
+                <h6 class="check-list-text">Premium quality</h6>
+                <p class="check-list-text">High grade materials, sizes and finishing options no matter where in
+                    the
+                    world your order.</p>
+            </div>
+
+            <div id="check-list-4" class="check-list">
+                <img class="tick-icon" src="../../icons/tick.png">
+                <h6 class="check-list-text">Free to use</h6>
+                <p class="check-list-text">Our photo book maker platform is 100% free. We only charge for items
+                    ordered and there will never
+                    be any hidden fees or surprises.</p>
+            </div>
+            <!-- </div> -->
+
+            <!-- Easy-to-use interface
                 Simple and intuitive; making it easy for customers to turn their photos into beautiful books.
                 
                 Intuitive, quick and simple
@@ -35,123 +77,130 @@
                 
                 Free to use
                 Our photo book maker platform is 100% free. We only charge for items ordered and there will never be any hidden fees or surprises. -->
-            </div>
+        </div>
 
-            <div class="col-md-7">
-                <!-- Photo book maker sign up
+        <!-- <div class="col-md-7"> -->
+        <div id="sign-up-right">
+            <!-- Photo book maker sign up
                 Already have an account? Sign in
 
                 I have read and agree to the terms and conditions
                 Email me about product updates. Prodigi occasionally send helpful and useful emails. You can unsubscribe at any time. Privacy policy-->
-                <h1 id="page-title">Photo book maker sign up</h1>
-                <p class="lead" style="text-align: left;">Already have an account? Sign in</p>
+            <h1 id="page-title">Photo book maker sign up</h1>
+            <p class="page-subhead">Already have an account? Sign in</p>
 
+            <!-- box body??? -->
+            <!-- <div class="box-body"> -->
 
+            <form action="#" class="mb-0" id="request-interest">
 
-                <div class="box-body">
-
-                    <form method="post" action="#" class="mb-0" id="request-interest">
-
-
-
-                        <div class="form-group">
-                            <label for="first-name-input" class="required form-text">Full name<abbr
-                                    class="sq-form-required-field" title="required"
-                                    aria-label="Required field">*</abbr></label>
-                            <input name="first-name" type="text" class="form-control col-md-6" id="first-name-input">
-                            <div id="first-name-error-message" class="d-none sq-form-error">
-                                This field is required. Please enter a first name.
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="last-name-input" class="required form-text">Email <abbr
-                                    class="sq-form-required-field" title="required"
-                                    aria-label="Required field">*</abbr></label>
-                            <input name="last-name" type="text" class="form-control col-md-6" id="last-name-input">
-                            <div id="last-name-error-message" class="d-none sq-form-error">
-                                This field is required. Please enter an email.
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="company-input" class="form-text">Company name</label>
-                            <input name="company-name" type="text" class="form-control col-md-6" id="company-input">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email-input" class="required form-text">Password <abbr
-                                    class="sq-form-required-field" title="required"
-                                    aria-label="Required field">*</abbr></label>
-                            <input name="email-address" type="email" class="form-control col-md-6" id="email-input">
-                            <div id="email-error-message" class="d-none sq-form-error">
-                                This field is required. Please enter a password.
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email-input" class="required form-text">Password <abbr
-                                    class="sq-form-required-field" title="required"
-                                    aria-label="Required field">*</abbr></label>
-                            <input name="email-address" type="email" class="form-control col-md-6" id="email-input">
-                            <div id="email-error-message" class="d-none sq-form-error">
-                                This field is required. Please enter a password.
-                            </div>
-                        </div>
-
-                        <p>* Required field</p>
-
-                        <div class="form-group">
-                            <fieldset>
-
-                                <div class="radio-option">
-                                    <input type="checkbox" name="marketing-option" id="yes-updates-english"
-                                        value="English" />
-                                    <label class="radio-option-label" for="yes-updates-english"
-                                        aria-describedby="marking-opt-in">I have read and agreed to the terms and
-                                        conditions</label>
-                                </div>
-
-                                <div class="radio-option">
-                                    <input type="checkbox" name="marketing-option" id="yes-updates-welsh"
-                                        value="Welsh" />
-                                    <label class="radio-option-label" for="yes-updates-welsh"
-                                        aria-describedby="marking-opt-in">Email me about product updates. Prodigi
-                                        occasionally send helpful and useful emails. You can unsubscribe at any time.
-                                        Privacy policy</label>
-                                </div>
-
-                            </fieldset>
-
-                        </div>
-
-                        <input type="hidden" id="course-code" value="%asset_metadata_cpdcourse.codeone%">
-                        <button type="submit" id="submit-button" class="btn btn-primary mt-10 mb-30">Create
-                            account</button>
-
-                    </form>
-
-                    <div class="d-none mb-0" id="loading-form">
-                        <div class=" loader loader--black loader--active mt-20 mb-0" role="status">
-                        </div>
+                <div class="form-group">
+                    <label for="full-name-input" class="required form-text">Full name<abbr class="form-required-field"
+                            title="required" aria-label="Required field">*</abbr></label>
+                    <input name="full-name" type="text" placeholder="Full name*" class="form-control col-md-6"
+                        id="first-name-input">
+                    <div id="first-name-error-message" class="d-none form-error">
+                        This field is required. Please enter a first name.
                     </div>
+                </div>
 
+                <div class="form-group">
+                    <label for="email-input" class="required form-text">Email <abbr class="form-required-field"
+                            title="required" aria-label="Required field">*</abbr></label>
+                    <input name="email" type="text" placeholder="Email*" class="form-control col-md-6" id="email-input">
+                    <div id="email-error-message" class="d-none form-error">
+                        This field is required. Please enter an email.
+                    </div>
+                </div>
 
+                <div class="form-group">
+                    <label for="company-input" class="form-text">Company name</label>
+                    <input name="company-name" type="text" placeholder="Company name" class="form-control col-md-6"
+                        id="company-input">
+                </div>
+
+                <!-- type change to text from password? -->
+                <div class="form-group">
+                    <label for="create-password-input" class="required form-text">Password<abbr
+                            class="form-required-field" title="required" aria-label="Required field">*</abbr></label>
+                    <input name="create-password" type="password" placeholder="Create password*"
+                        class="form-control col-md-6" id="create-password-input">
+                    <div id="create-password-error-message" class="d-none form-error">
+                        This field is required. Please enter a password.
+                    </div>
+                    <div id="create-confirm-password-error-message" class="d-none form-error">
+                        The two passwords entered do not match. Please enter the passwords again.
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password-input" class="required form-text">Password <abbr
+                            class="form-required-field" title="required" aria-label="Required field">*</abbr></label>
+                    <input name="confirm-password" type="password" placeholder="Confirm password*"
+                        class="form-control col-md-6" id="confirm-password-input">
+                    <div id="confirm-password-error-message" class="d-none form-error">
+                        This field is required. Please enter a password.
+                    </div>
+                </div>
+
+                <p>* Required field</p>
+
+                <div class="form-group">
+                    <fieldset>
+
+                        <div class="checkbox-option">
+                            <input type="checkbox" name="marketing-option" id="terms-and-conditions-option"
+                                value="Terms-and-con" />
+                            <label class="checkbox-option-label" for="terms-and-conditions-option"
+                                aria-describedby="terms-and-conditions-option">I have read and agreed to the
+                                terms and
+                                conditions</label>
+                        </div>
+
+                        <div class="checkbox-option">
+                            <input type="checkbox" name="marketing-option" id="subscribe-email"
+                                value="subscribe-email" />
+                            <label class="radio-option-label" for="yes-updates-welsh"
+                                aria-describedby="marking-opt-in">Email me about product updates. Prodigi
+                                occasionally send helpful and useful emails. You can unsubscribe at any
+                                time.
+                                Privacy policy</label>
+                        </div>
+
+                    </fieldset>
 
                 </div>
 
 
+                <button class="btn btn-primary mt-10 mb-30">Create
+                    account</button>
+                <div id="submit-button-message" class="d-none form-error">
+                    This field is required. Please enter a password.
+                </div>
 
+            </form>
 
+            <div class="d-none mb-0" id="loading-form">
+                <div class=" loader loader--black loader--active mt-20 mb-0" role="status">
+                </div>
             </div>
 
 
 
-
-
-
+            <!-- </div> -->
 
         </div>
+
+
+        <!-- </div> -->
+
+
+
+
+
+
+
+        <!-- </div> -->
     </div>
     </main>
 
@@ -171,7 +220,7 @@
 
 
 
-
+    <!-- 
     <div id="stuff">
         <div id="wrapper">
 
@@ -186,9 +235,9 @@
             </div>
 
         </div>
-    </div>
+    </div> -->
 
-
+    <script src="../../ts/greeter.js"></script>
 
 </body>
 

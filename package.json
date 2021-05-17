@@ -4,7 +4,7 @@
   "UIKitVersion": "2.8.1.dev.5",
   "description": "The new public UI kit.",
   "main": "dist/js/main.js",
-  "style": "dist/css/main.css",
+  "style": "src/sass/main.css",
   "sass": "src/sass/main.sass",
   "repository": {
     "type": "git",
@@ -62,11 +62,11 @@
     "@babel/preset-typescript": "^7.10.4",
     "@types/bootstrap": "^4.5.0",
     "@types/jest": "^24.9.1",
-    "@types/jquery": "^3.5.0",
+    "@types/jquery": "^3.5.5",
     "@types/node": "^12.12.48",
     "bootstrap": "4.3.1",
     "jest": "24.8.0",
-    "jquery": "3.4.1",
+    "jquery": "^3.4.1",
     "mustache": "^3.2.1",
     "node-gzip": "^1.1.2",
     "node-sass": "^4.14.1",
@@ -84,7 +84,6 @@
   },
   "dependencies": {
     "@types/google.analytics": "0.0.40",
-    "http-server": "^0.12.3",
-    "jquery": "3.4.1"
+    "http-server": "^0.12.3"
   }
 }
