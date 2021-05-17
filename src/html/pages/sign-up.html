@@ -92,12 +92,12 @@
             <!-- box body??? -->
             <!-- <div class="box-body"> -->
 
-            <form action="#" class="mb-0" id="request-interest">
+            <form action="#" class="mb-0" id="sign-up-form">
 
                 <div class="form-group">
                     <label for="full-name-input" class="required form-text">Full name<abbr class="form-required-field"
                             title="required" aria-label="Required field">*</abbr></label>
-                    <input name="full-name" type="text" placeholder="Full name*" class="form-control col-md-6"
+                    <input name="full-name" type="text" placeholder="Full name*" class="form-control"
                         id="first-name-input">
                     <div id="first-name-error-message" class="d-none form-error">
                         This field is required. Please enter a first name.
@@ -107,7 +107,7 @@
                 <div class="form-group">
                     <label for="email-input" class="required form-text">Email <abbr class="form-required-field"
                             title="required" aria-label="Required field">*</abbr></label>
-                    <input name="email" type="text" placeholder="Email*" class="form-control col-md-6" id="email-input">
+                    <input name="email" type="text" placeholder="Email*" class="form-control" id="email-input">
                     <div id="email-error-message" class="d-none form-error">
                         This field is required. Please enter an email.
                     </div>
@@ -115,7 +115,7 @@
 
                 <div class="form-group">
                     <label for="company-input" class="form-text">Company name</label>
-                    <input name="company-name" type="text" placeholder="Company name" class="form-control col-md-6"
+                    <input name="company-name" type="text" placeholder="Company name" class="form-control"
                         id="company-input">
                 </div>
 
@@ -149,8 +149,7 @@
                     <fieldset>
 
                         <div class="checkbox-option">
-                            <input type="checkbox" name="marketing-option" id="terms-and-conditions-option"
-                                value="Terms-and-con" />
+                            <input type="checkbox" id="terms-and-conditions-option" value="Terms-and-con" />
                             <label class="checkbox-option-label" for="terms-and-conditions-option"
                                 aria-describedby="terms-and-conditions-option">I have read and agreed to the
                                 terms and
@@ -158,9 +157,8 @@
                         </div>
 
                         <div class="checkbox-option">
-                            <input type="checkbox" name="marketing-option" id="subscribe-email"
-                                value="subscribe-email" />
-                            <label class="radio-option-label" for="yes-updates-welsh"
+                            <input type="checkbox" id="subscribe-email" value="subscribe-email" />
+                            <label class="checkbox-option-label" for="subscribe-email"
                                 aria-describedby="marking-opt-in">Email me about product updates. Prodigi
                                 occasionally send helpful and useful emails. You can unsubscribe at any
                                 time.
@@ -172,20 +170,13 @@
                 </div>
 
 
-                <button class="btn btn-primary mt-10 mb-30">Create
+                <button class="btn btn-primary">Create
                     account</button>
                 <div id="submit-button-message" class="d-none form-error">
                     This field is required. Please enter a password.
                 </div>
 
             </form>
-
-            <div class="d-none mb-0" id="loading-form">
-                <div class=" loader loader--black loader--active mt-20 mb-0" role="status">
-                </div>
-            </div>
-
-
 
             <!-- </div> -->
 
@@ -194,50 +185,12 @@
 
         <!-- </div> -->
 
-
-
-
-
-
-
         <!-- </div> -->
     </div>
     </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- 
-    <div id="stuff">
-        <div id="wrapper">
-
-            <img id="bg-image" src="../../images/background.png" alt="background">
-
-            <img id="prodigi-logo" src="../../logo/prodigi-logo.png">
-
-            <div class="check-list">
-                <img class="tick-icon" src="../../icons/tick.png">
-                <h6>Easy-to-use interface</h6>
-                <p>Simple and intuitive; making it easy for customers to turn their photos into beautiful books.</p>
-            </div>
-
-        </div>
-    </div> -->
-
     <script src="../../ts/greeter.js"></script>
+    <!-- \ts\types\components\sign-up.ts -->
 
 </body>
 
