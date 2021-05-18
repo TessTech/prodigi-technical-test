@@ -1,6 +1,6 @@
 const checkRequestSignUp = (callback: Require): void => {
   if (document.querySelector('.sign-up') !== null) {
-    callback(['components/sign-up.min'], (signUp: SignUp): void => {
+    callback(['jquery'], ($: JQueryStatic, signUp: Page.SignUp): void => {
       signUp.init();
     });
   }

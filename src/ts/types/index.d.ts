@@ -6,12 +6,12 @@ declare var $: JQueryStatic;
 
 export = jQuery;
 
-interface signUp {
-  init(): void;
-}
+// interface signUp {
+//   init(): void;
+// }
 
-declare namespace signUp {
-  interface Enquiry {
+declare namespace Page {
+  interface SignUp {
     Fullname: string;
     Email: string;
     Company?: string;

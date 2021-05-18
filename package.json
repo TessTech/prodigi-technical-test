@@ -13,13 +13,14 @@
     "Chrome >= 54"
   ],
   "scripts": {
-
+    
   },
   "author": "Tess Bryant",
   "devDependencies": {
 
   },
   "dependencies": {
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "typings": "^2.1.1"
   }
 }
