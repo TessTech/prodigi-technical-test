@@ -1,6 +1,6 @@
 // var $ = 'jquery'
 
-let message: string = 'Hello World';
+let message: string = 'Hellooooooooooo World';
 console.log(message);
 
 // const init = (): void => {
@@ -13,7 +13,7 @@ console.log(message);
 // define(['jquery'], (
 //   $: JQueryStatic
 // ): Page.SignUp => {
-$('#fake-button').on('click', (evt: Event): void => {
+$('#sign-up-button').on('click', (evt: Event): void => {
   evt.preventDefault();
   // $('#fake-button-message').removeClass('d-none');
   let count = 0;
@@ -29,12 +29,12 @@ $('#fake-button').on('click', (evt: Event): void => {
   }
 
   if ($('#create-password-input').val() == '') {
-    $('#create-password-message').removeClass('d-none');
+    $('#create-password-error-message').removeClass('d-none');
     count++;
   }
 
   if ($('#confirm-password-input').val() == '') {
-    $('#confirm-password-message').removeClass('d-none');
+    $('#confirm-password-error-message').removeClass('d-none');
     count++;
   }
 
@@ -45,4 +45,51 @@ $('#fake-button').on('click', (evt: Event): void => {
     count++;
   }
 });
+
+//if all required fields filled out change buttons color
+// if ($('#full-name-input').val() !== '') &&& $('#email-input').val() !== '') && $('#create-password-input').val() !== '') && $('#confirm-password-input').val() !== '')) {
+//   $('#sign-up-button').removeClass('btn-pale');
+//   $('#sign-up-button').removeClass('btn-solid');
+// }
+
+/////////////////////////////////////////
+// let buttonCount: number = 0;
+// if ($('#full-name-input').val() == '') {
+//   $('#full-name-error-message').removeClass('d-none');
+//   buttonCount++;
+// }
+
+// if ($('#email-input').val() == '') {
+//   $('#email-error-message').removeClass('d-none');
+//   buttonCount++;
+// }
+
+// if ($('#create-password-input').val() == '') {
+//   $('#create-password-error-message').removeClass('d-none');
+//   buttonCount++;
+// }
+
+// if ($('#confirm-password-input').val() == '') {
+//   $('#confirm-password-error-message').removeClass('d-none');
+//   buttonCount++;
+// }
+
+// if ($('#create-password-input').val() !== $('#confirm-password-input').val()) {
+//   $('#create-confirm-password-error-message').removeClass('d-none');
+//   buttonCount++;
+// }
+
+// if ((buttonCount = 5)) {
+//   $('#sign-up-button').removeClass('btn-pale');
+//   $('#sign-up-button').removeClass('btn-solid');
+// }
+
+// //click on the input
+// //click off the input
+// $('#create-password-input').on('click', (evt: Event): void => {
+//   evt.preventDefault();
+//   $('#create-password-input').addClass('input--clicked');
+// });
+
+////////////////////////////////////////////
 //}

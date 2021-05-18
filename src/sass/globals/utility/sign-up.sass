@@ -102,8 +102,11 @@ $baseUnit: 10px
 
 .form-control,
 input,
-.btn-primary
+.btn-pale,
+.btn-solid
     &:focus
+        //trying to get rid of the blue box-shadow and the yellow that just meant to be tab
+        box-shadow: none
         box-shadow: 0 0 0 ($baseUnit*0.3) $colorLemon
 
 .form-group
@@ -112,3 +115,17 @@ input,
         font-size: 10px
         font-family: $fontFamily
         color: $colorBlack
+
+.btn-pale
+    $colorDodgerBlue: #4352FF
+
+.btn-solid
+    $colorPurpleHeart: #4630D4
+
+.input--clicked
+    border: 5px solid $colorWhite
+    border-bottom: 50px solid $colorBlack
+
+.input--normal
+    border: 5px solid $colorWhite
+    border-bottom: 5px solid $colorSilverChalice
