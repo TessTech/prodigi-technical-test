@@ -47,6 +47,8 @@
 .check-list .tick-icon {
   width: 15px;
   height: auto;
+  display: inline;
+  margin-left: -20px;
 }
 
 .check-list#check-list-1 {
@@ -81,6 +83,7 @@
 
 .check-list h6.check-list-text {
   left: 150px;
+  display: inline;
 }
 
 .check-list p {
@@ -112,6 +115,7 @@
 input:focus,
 .btn-pale:focus,
 .btn-solid:focus {
+  border-color: none;
   -webkit-box-shadow: 0 0 0 3px #F7F622;
           box-shadow: 0 0 0 3px #F7F622;
 }
@@ -125,11 +129,22 @@ input:focus,
 
 .input--clicked {
   border: 5px solid #FFFFFF;
-  border-bottom: 50px solid #000000;
+  border-bottom: 5px solid #000000;
 }
 
 .input--normal {
   border: 5px solid #FFFFFF;
   border-bottom: 5px solid #a4a4a4;
+}
+
+#password-inputs .password-1 {
+  display: inline;
+}
+
+.form-control:focus {
+  border-color: black;
+  border: 5px solid #FFFFFF;
+  border-bottom: 50px solid #000000;
+  border-radius: 0rem;
 }
 /*# sourceMappingURL=main.css.map */

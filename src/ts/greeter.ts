@@ -1,6 +1,6 @@
 // var $ = 'jquery'
 
-let message: string = 'Hellooooooooooo World';
+let message: string = 'Hellppp World';
 console.log(message);
 
 // const init = (): void => {
@@ -79,17 +79,19 @@ $('#sign-up-button').on('click', (evt: Event): void => {
 //   buttonCount++;
 // }
 
+// console.log(buttonCount);
 // if ((buttonCount = 5)) {
 //   $('#sign-up-button').removeClass('btn-pale');
 //   $('#sign-up-button').removeClass('btn-solid');
 // }
 
-// //click on the input
-// //click off the input
-// $('#create-password-input').on('click', (evt: Event): void => {
-//   evt.preventDefault();
-//   $('#create-password-input').addClass('input--clicked');
-// });
+//click on the input
+//click off the input
+$('#create-password-input').on('click', (evt: Event): void => {
+  evt.preventDefault();
+  $('#create-password-input').removeClass('input--normal');
+  $('#create-password-input').addClass('input--clicked');
+});
 
 ////////////////////////////////////////////
 //}

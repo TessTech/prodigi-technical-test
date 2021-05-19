@@ -124,26 +124,30 @@
                 </div>
 
                 <!-- type change to text from password? -->
-                <div class="form-group">
-                    <label for="create-password-input" class="required form-text">Password<abbr
-                            class="form-required-field" title="required" aria-label="Required field">*</abbr></label>
-                    <input name="create-password" type="password" placeholder="Create password*"
-                        class="form-control col-md-6 input--normal" id="create-password-input">
-                    <div id="create-password-error-message" class="d-none form-error">
-                        This field is required. Please enter a password.
+                <div id="password-inputs">
+                    <div class="form-group password-1">
+                        <label for="create-password-input" class="required form-text">Password<abbr
+                                class="form-required-field" title="required"
+                                aria-label="Required field">*</abbr></label>
+                        <input name="create-password" type="password" placeholder="Create password*"
+                            class="form-control col-md-6 input--normal" id="create-password-input">
+                        <div id="create-password-error-message" class="d-none form-error">
+                            This field is required. Please enter a password.
+                        </div>
+                        <div id="create-confirm-password-error-message" class="d-none form-error">
+                            The two passwords entered do not match. Please enter the passwords again.
+                        </div>
                     </div>
-                    <div id="create-confirm-password-error-message" class="d-none form-error">
-                        The two passwords entered do not match. Please enter the passwords again.
-                    </div>
-                </div>
 
-                <div class="form-group">
-                    <label for="confirm-password-input" class="required form-text">Password <abbr
-                            class="form-required-field" title="required" aria-label="Required field">*</abbr></label>
-                    <input name="confirm-password" type="password" placeholder="Confirm password*"
-                        class="form-control col-md-6" id="confirm-password-input">
-                    <div id="confirm-password-error-message" class="d-none form-error">
-                        This field is required. Please enter a password.
+                    <div class="form-group password-2">
+                        <label for="confirm-password-input" class="required form-text">Password <abbr
+                                class="form-required-field" title="required"
+                                aria-label="Required field">*</abbr></label>
+                        <input name="confirm-password" type="password" placeholder="Confirm password*"
+                            class="form-control col-md-6" id="confirm-password-input">
+                        <div id="confirm-password-error-message" class="d-none form-error">
+                            This field is required. Please enter a password.
+                        </div>
                     </div>
                 </div>
 
@@ -198,6 +202,8 @@
     </main>
 
     <script src="../../ts/greeter.js"></script>
+    <script src="../../../license.js"></script>
+
     <!-- \ts\types\components\sign-up.ts -->
 
 </body>

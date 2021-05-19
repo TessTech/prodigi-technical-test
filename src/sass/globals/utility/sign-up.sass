@@ -52,6 +52,8 @@ $baseUnit: 10px
     .tick-icon
         width: 15px
         height: auto
+        display: inline
+        margin-left: -20px
 
     &#check-list-1
         top: 100px
@@ -78,6 +80,7 @@ $baseUnit: 10px
 
         &.check-list-text
             left: 150px
+            display: inline
     p
         font-size: 10px
         font-family: $fontFamily
@@ -106,7 +109,7 @@ input,
 .btn-solid
     &:focus
         //trying to get rid of the blue box-shadow and the yellow that just meant to be tab
-        box-shadow: none
+        border-color: none
         box-shadow: 0 0 0 ($baseUnit*0.3) $colorLemon
 
 .form-group
@@ -124,8 +127,30 @@ input,
 
 .input--clicked
     border: 5px solid $colorWhite
-    border-bottom: 50px solid $colorBlack
+    border-bottom: 5px solid $colorBlack
 
 .input--normal
     border: 5px solid $colorWhite
     border-bottom: 5px solid $colorSilverChalice
+
+#password-inputs
+    .password-1
+        display: inline
+
+.form-control
+    border: 5px solid $colorWhite
+    border-bottom: 5px solid $colorSilverChalice
+    &:focus
+        border-color: black
+        border: 5px solid $colorWhite
+        border-bottom: 5px solid $colorBlack
+        border-radius: 0rem
+
+    // .form-control
+//     border: 5px solid $colorWhite
+//     border-bottom: 5px solid $colorSilverChalice
+//     &:focus
+//         border: 5px solid $colorWhite
+//         border-color: black
+//         border-bottom: 5px solid $colorBlack
+//         border-radius: 0rem
