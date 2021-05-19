@@ -19,6 +19,9 @@ $baseUnit: 10px
 
 .container
     display: flex
+    // margin-left: 15%
+    // .left-side
+    //     margin-left: 15%
 
 #sign-up-left
     flex: 30%
@@ -46,8 +49,8 @@ $baseUnit: 10px
 .check-list
     position: absolute
     color: $colorWhite
-    left: 100px
-    width: 30%
+    left: 25%
+    width: 65%
 
     .tick-icon
         width: 15px
@@ -56,16 +59,16 @@ $baseUnit: 10px
         margin-left: -20px
 
     &#check-list-1
-        top: 100px
+        top: 140px
 
     &#check-list-2
-        top: 200px
+        top: 210px
 
     &#check-list-3
-        top: 300px
+        top: 280px
 
     &#check-list-4
-        top: 410px
+        top: 350px
 
     .check-list-text
         left: 150px
@@ -93,7 +96,7 @@ $baseUnit: 10px
 #prodigi-logo
     position: absolute
     top: 30px
-    left: 20vw
+    left: 25%
     height: 50px
     width: auto
 
@@ -120,10 +123,14 @@ input,
         color: $colorBlack
 
 .btn-pale
-    $colorDodgerBlue: #4352FF
+    color: $colorWhite
+    background-color: $colorDodgerBlue
+    border-color: $colorDodgerBlue
 
 .btn-solid
-    $colorPurpleHeart: #4630D4
+    color: $colorWhite
+    background-color: $colorPurpleHeart
+    border-color: $colorPurpleHeart
 
 .input--clicked
     border: 5px solid $colorWhite
@@ -139,12 +146,27 @@ input,
 
 .form-control
     border: 5px solid $colorWhite
-    border-bottom: 5px solid $colorSilverChalice
+    border-bottom: 2px solid $colorSilverChalice
     &:focus
         border-color: black
         border: 5px solid $colorWhite
-        border-bottom: 5px solid $colorBlack
+        border-bottom: 2px solid $colorBlack
         border-radius: 0rem
+#sign-up-form-section
+    height: 100vh
+    margin-left: 5%
+    h1
+        font-size: 1.5rem
+    p
+        font-size: 0.7rem
+    .form-group--input
+        label
+            font-size: 7px
+            color: $colorSilverChalice
+        input
+            height: 5px
+
+// .form-group p, .form-group label
 
     // .form-control
 //     border: 5px solid $colorWhite

@@ -31,7 +31,7 @@
         <!-- put the image here and make it the background -->
 
         <!-- <div id="sign-up-left"> -->
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-4 left-side">
             <img id="sign-up-click-image" src="../../images/background.png">
 
             <img id="prodigi-logo" src="../../logo/prodigi-logo.png">
@@ -83,7 +83,7 @@
                 Our photo book maker platform is 100% free. We only charge for items ordered and there will never be any hidden fees or surprises. -->
         </div>
 
-        <div class="col-md-5">
+        <div id="sign-up-form-section" class="col-md-4">
             <!-- <div id="sign-up-right"> -->
             <!-- Photo book maker sign up
                 Already have an account? Sign in
@@ -91,14 +91,14 @@
                 I have read and agree to the terms and conditions
                 Email me about product updates. Prodigi occasionally send helpful and useful emails. You can unsubscribe at any time. Privacy policy-->
             <h1 id="page-title">Photo book maker sign up</h1>
-            <p class="page-subhead">Already have an account? Sign in</p>
+            <p class="page-subhead">Already have an account? <a href="#">Sign in</a></p>
 
             <!-- box body??? -->
             <!-- <div class="box-body"> -->
 
             <form action="#" class="mb-0" id="sign-up-form">
 
-                <div class="form-group">
+                <div class="form-group form-group--input">
                     <label for="full-name-input" class="required form-text">Full name<abbr class="form-required-field"
                             title="required" aria-label="Required field">*</abbr></label>
                     <input name="full-name" type="text" placeholder="Full name*" class="form-control"
@@ -108,7 +108,7 @@
                     </div>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group form-group--input">
                     <label for="email-input" class="required form-text">Email <abbr class="form-required-field"
                             title="required" aria-label="Required field">*</abbr></label>
                     <input name="email" type="text" placeholder="Email*" class="form-control" id="email-input">
@@ -117,7 +117,7 @@
                     </div>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group form-group--input">
                     <label for="company-input" class="form-text">Company name</label>
                     <input name="company-name" type="text" placeholder="Company name" class="form-control"
                         id="company-input">
@@ -125,7 +125,7 @@
 
                 <!-- type change to text from password? -->
                 <div id="password-inputs">
-                    <div class="form-group password-1">
+                    <div class="form-group password-1 form-group--input">
                         <label for="create-password-input" class="required form-text">Password<abbr
                                 class="form-required-field" title="required"
                                 aria-label="Required field">*</abbr></label>
@@ -139,7 +139,7 @@
                         </div>
                     </div>
 
-                    <div class="form-group password-2">
+                    <div class="form-group password-2 form-group--input">
                         <label for="confirm-password-input" class="required form-text">Password <abbr
                                 class="form-required-field" title="required"
                                 aria-label="Required field">*</abbr></label>
@@ -153,24 +153,24 @@
 
                 <p>* Required field</p>
 
-                <div class="form-group">
+                <div class="form-group form-group--checkbox">
                     <fieldset>
 
                         <div class="checkbox-option">
                             <input type="checkbox" id="terms-and-conditions-option" value="Terms-and-con" />
                             <label class="checkbox-option-label" for="terms-and-conditions-option"
                                 aria-describedby="terms-and-conditions-option">I have read and agreed to the
-                                terms and
-                                conditions</label>
+                                <a href="#">terms and
+                                    conditions</a></label>
                         </div>
 
-                        <div class="checkbox-option">
+                        <div class="checkbox-option form-group--checkbox">
                             <input type="checkbox" id="subscribe-email" value="subscribe-email" />
                             <label class="checkbox-option-label" for="subscribe-email"
                                 aria-describedby="marking-opt-in">Email me about product updates. Prodigi
                                 occasionally send helpful and useful emails. You can unsubscribe at any
                                 time.
-                                Privacy policy</label>
+                                <a href="#">Privacy policy</a></label>
                         </div>
 
                     </fieldset>
@@ -184,7 +184,7 @@
                     This field is required. Please enter a password.
                 </div> -->
 
-                <button id="sign-up-button" class="btn btn-pale">Create
+                <button id="sign-up-button" class="btn btn-pale col-md-12">Create
                     account</button>
 
 

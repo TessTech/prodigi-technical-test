@@ -40,8 +40,8 @@
 .check-list {
   position: absolute;
   color: #FFFFFF;
-  left: 100px;
-  width: 30%;
+  left: 25%;
+  width: 65%;
 }
 
 .check-list .tick-icon {
@@ -52,19 +52,19 @@
 }
 
 .check-list#check-list-1 {
-  top: 100px;
+  top: 140px;
 }
 
 .check-list#check-list-2 {
-  top: 200px;
+  top: 210px;
 }
 
 .check-list#check-list-3 {
-  top: 300px;
+  top: 280px;
 }
 
 .check-list#check-list-4 {
-  top: 410px;
+  top: 350px;
 }
 
 .check-list .check-list-text {
@@ -100,7 +100,7 @@
 #prodigi-logo {
   position: absolute;
   top: 30px;
-  left: 20vw;
+  left: 25%;
   height: 50px;
   width: auto;
 }
@@ -127,6 +127,18 @@ input:focus,
   color: #000000;
 }
 
+.btn-pale {
+  color: #FFFFFF;
+  background-color: #4352FF;
+  border-color: #4352FF;
+}
+
+.btn-solid {
+  color: #FFFFFF;
+  background-color: #4630D4;
+  border-color: #4630D4;
+}
+
 .input--clicked {
   border: 5px solid #FFFFFF;
   border-bottom: 5px solid #000000;
@@ -141,10 +153,37 @@ input:focus,
   display: inline;
 }
 
+.form-control {
+  border: 5px solid #FFFFFF;
+  border-bottom: 2px solid #a4a4a4;
+}
+
 .form-control:focus {
   border-color: black;
   border: 5px solid #FFFFFF;
-  border-bottom: 50px solid #000000;
+  border-bottom: 2px solid #000000;
   border-radius: 0rem;
+}
+
+#sign-up-form-section {
+  height: 100vh;
+  margin-left: 5%;
+}
+
+#sign-up-form-section h1 {
+  font-size: 1.5rem;
+}
+
+#sign-up-form-section p {
+  font-size: 0.7rem;
+}
+
+#sign-up-form-section .form-group--input label {
+  font-size: 7px;
+  color: #a4a4a4;
+}
+
+#sign-up-form-section .form-group--input input {
+  height: 5px;
 }
 /*# sourceMappingURL=main.css.map */

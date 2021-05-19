@@ -1,6 +1,6 @@
 // var $ = 'jquery'
 
-let message: string = 'Hellppp World';
+let message: string = 'Help World';
 console.log(message);
 
 // const init = (): void => {
@@ -20,6 +20,8 @@ $('#sign-up-button').on('click', (evt: Event): void => {
 
   if ($('#full-name-input').val() == '') {
     $('#full-name-error-message').removeClass('d-none');
+    $('#sign-up-button').removeClass('btn-pale');
+    $('#sign-up-button').addClass('btn-solid');
     count++;
   }
 
@@ -82,16 +84,25 @@ $('#sign-up-button').on('click', (evt: Event): void => {
 // console.log(buttonCount);
 // if ((buttonCount = 5)) {
 //   $('#sign-up-button').removeClass('btn-pale');
-//   $('#sign-up-button').removeClass('btn-solid');
+//   $('#sign-up-button').addClass('btn-solid');
 // }
+
+$('#sign-up-button').on('hover', (evt: Event): void => {
+  evt.preventDefault();
+  $('#sign-up-button').removeClass('btn-pale');
+  $('#sign-up-button').addClass('btn-solid');
+
+  let messagee: string = 'buttttttton';
+  console.log(messagee);
+});
 
 //click on the input
 //click off the input
-$('#create-password-input').on('click', (evt: Event): void => {
-  evt.preventDefault();
-  $('#create-password-input').removeClass('input--normal');
-  $('#create-password-input').addClass('input--clicked');
-});
+// $('#create-password-input').on('click', (evt: Event): void => {
+//   evt.preventDefault();
+//   $('#create-password-input').removeClass('input--normal');
+//   $('#create-password-input').addClass('input--clicked');
+// });
 
 ////////////////////////////////////////////
 //}
