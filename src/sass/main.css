@@ -4,74 +4,59 @@
   display: flex;
 }
 
-#sign-up-left {
-  -webkit-box-flex: 30%;
-      -ms-flex: 30%;
-          flex: 30%;
+.container .left-side {
+  margin-left: 15%;
 }
 
-#sign-up-right {
-  -webkit-box-flex: 30%;
-      -ms-flex: 30%;
-          flex: 30%;
+.container .left-side #prodigi-logo {
+  position: absolute;
+  top: 30px;
+  left: 25%;
+  height: 50px;
+  width: auto;
 }
 
-#bg-image {
-  height: 10px;
-}
-
-.d-none {
-  visibility: hidden;
-}
-
-.form-text {
-  text-transform: uppercase;
-  font-size: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000000;
-}
-
-#sign-up-click-image {
+.container .left-side #sign-up-click-image {
   position: absolute;
   clip: rect(0px, 30vw, auto, 0px);
   height: 100vh;
 }
 
-.check-list {
+.container .left-side .check-list {
   position: absolute;
   color: #FFFFFF;
   left: 25%;
   width: 65%;
 }
 
-.check-list .tick-icon {
+.container .left-side .check-list .tick-icon {
   width: 15px;
   height: auto;
   display: inline;
   margin-left: -20px;
 }
 
-.check-list#check-list-1 {
+.container .left-side .check-list#check-list-1 {
   top: 140px;
 }
 
-.check-list#check-list-2 {
+.container .left-side .check-list#check-list-2 {
   top: 210px;
 }
 
-.check-list#check-list-3 {
+.container .left-side .check-list#check-list-3 {
   top: 280px;
 }
 
-.check-list#check-list-4 {
+.container .left-side .check-list#check-list-4 {
   top: 350px;
 }
 
-.check-list .check-list-text {
+.container .left-side .check-list .check-list-text {
   left: 150px;
 }
 
-.check-list h6 {
+.container .left-side .check-list h6 {
   font-size: 10px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -81,28 +66,20 @@
   left: 150;
 }
 
-.check-list h6.check-list-text {
+.container .left-side .check-list h6.check-list-text {
   left: 150px;
   display: inline;
 }
 
-.check-list p {
+.container .left-side .check-list p {
   font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
   color: #FFFFFF;
   margin: 0px;
 }
 
-.check-list p.check-list-text {
+.container .left-side .check-list p.check-list-text {
   left: 150px;
-}
-
-#prodigi-logo {
-  position: absolute;
-  top: 30px;
-  left: 25%;
-  height: 50px;
-  width: auto;
 }
 
 .form-group p {
@@ -165,25 +142,60 @@ input:focus,
   border-radius: 0rem;
 }
 
-#sign-up-form-section {
+#sign-up-right-side {
   height: 100vh;
   margin-left: 5%;
 }
 
-#sign-up-form-section h1 {
+#sign-up-right-side #sign-up-form-section {
+  padding-top: 50px;
+}
+
+#sign-up-right-side #sign-up-form-section h1 {
   font-size: 1.5rem;
 }
 
-#sign-up-form-section p {
+#sign-up-right-side #sign-up-form-section p {
   font-size: 0.7rem;
 }
 
-#sign-up-form-section .form-group--input label {
+#sign-up-right-side #sign-up-form-section form {
+  margin-top: 30px;
+}
+
+#sign-up-right-side #sign-up-form-section .form-group--input label {
   font-size: 7px;
   color: #a4a4a4;
 }
 
-#sign-up-form-section .form-group--input input {
+#sign-up-right-side #sign-up-form-section .form-group--input input {
   height: 5px;
+}
+
+#sign-up-right-side #sign-up-form-section .form-group--input input .form-text {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+#sign-up-right-side #sign-up-form-section .form-group--input .form-control {
+  font-size: 10px;
+}
+
+#sign-up-right-side #sign-up-form-section .form-group--checkbox #subscribe-email {
+  display: inline;
+}
+
+#sign-up-right-side #sign-up-form-section .form-group--checkbox .checkbox-option-label {
+  display: inline;
+}
+
+.d-none {
+  visibility: hidden;
+}
+
+.red-sass {
+  color: red;
 }
 /*# sourceMappingURL=main.css.map */

@@ -46,6 +46,14 @@ $('#sign-up-button').on('click', (evt: Event): void => {
     $('#create-confirm-password-error-message').removeClass('d-none');
     count++;
   }
+
+  // let element = $("##terms-and-conditions-option");
+  // if (element.checked) { you code }
+
+  // if ($('#terms-and-conditions-option').checked === false) {
+  //   $('#terms-and-con-error-message').removeClass('d-none');
+  //   count++;
+  // }
 });
 
 //if all required fields filled out change buttons color
