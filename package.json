@@ -2,7 +2,7 @@
   "name": "prodigi-technical-test",
   "version": "1.0.0",
   "description": "Sign up page for my Prodigi technical test.",
-  "main": "dist/js/main.js",
+  "main": "src/ts/components/sign-up.js",
   "style": "src/sass/main.css",
   "sass": "src/sass/main.sass",
   "repository": {

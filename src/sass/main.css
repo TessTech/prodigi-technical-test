@@ -29,6 +29,13 @@
   width: 65%;
 }
 
+.container .sign-up__left-side .check-list .tick-icon {
+  width: 15px;
+  height: auto;
+  display: inline;
+  margin-left: -20px;
+}
+
 .container .sign-up__left-side .check-list--1 {
   top: 140px;
 }
@@ -49,13 +56,6 @@
   left: 150px;
 }
 
-.container .sign-up__left-side .check-list .tick-icon {
-  width: 15px;
-  height: auto;
-  display: inline;
-  margin-left: -20px;
-}
-
 .container .sign-up__left-side .check-list h6 {
   font-size: 10px;
   font-weight: bold;
@@ -63,7 +63,7 @@
   color: #FFFFFF;
   margin: 0px;
   padding-bottom: 5px;
-  left: 150;
+  left: 150px;
 }
 
 .container .sign-up__left-side .check-list h6.check-list-text {
@@ -206,6 +206,7 @@
 .container .sign-up__right-side .sign-up__form-section form .required-form-text {
   font-weight: bold;
   font-size: 10px;
+  margin-bottom: 10px;
 }
 
 .container .sign-up__right-side .sign-up__form-section form .btn--pale {
