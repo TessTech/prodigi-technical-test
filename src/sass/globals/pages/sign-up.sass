@@ -1,0 +1,155 @@
+.container
+    display: flex
+    .sign-up__left-side
+        margin-left: 15%
+
+        .sign-up__prodigi-logo
+            position: absolute
+            top: 30px
+            left: 25%
+            height: 50px
+            width: auto
+
+        .sign-up__background-image
+            position: absolute
+            clip: rect(0px, 30vw, auto, 0px)
+            height: 100vh
+
+        .check-list
+            position: absolute
+            color: $colorWhite
+            left: 25%
+            width: 65%
+            &--1
+                top: 140px
+
+            &--2
+                top: 210px
+
+            &--3
+                top: 280px
+
+            &--4
+                top: 350px
+
+            &__text
+                left: 150px
+
+            .tick-icon
+                width: 15px
+                height: auto
+                display: inline
+                margin-left: -20px
+
+            h6
+                font-size: 10px
+                font-weight: bold
+                font-family: $fontFamily
+                color: $colorWhite
+                margin: 0px
+                padding-bottom: 5px
+                left: 150
+
+                &.check-list-text
+                    left: 150px
+                    display: inline
+            p
+                font-size: 10px
+                font-family: $fontFamily
+                color: $colorWhite
+                margin: 0px
+
+                &.check-list-text
+                    left: 150px
+
+    .sign-up__right-side
+        height: 100vh
+        margin-left: 5%
+        .sign-up__form-section
+            padding-top: 50px
+            .sign-up__title
+                font-size: 20px
+                font-weight: bold
+                color: $colorBlack
+            .sign-up__subtitle
+                font-size: 10px
+            form
+                margin-top: 3 0px
+                &:focus
+                    border-color: none
+                    box-shadow: 0 0 0 3px $colorLemon
+                .form-group
+                    margin-bottom: 0px
+                .form-group__input
+                    .form__label
+                        font-size: 7px
+                        color: $colorSilverChalice
+                        margin-bottom: 0px
+                        text-transform: uppercase
+                        font-family: $fontFamily
+
+                    .form-control
+                        font-size: 12px
+                        font-family: $fontFamily
+                        color: black
+                        border: 3px solid $colorWhite
+                        border-bottom: 2px solid $colorSilverChalice
+                        padding-bottom: 10px
+                        padding-left: 0px
+                        margin-left: -5px
+                        &:focus
+                            border-color: black
+                            border: 5px solid $colorWhite
+                            border-bottom: 2px solid $colorBlack
+                            border-radius: 0rem
+                    .form-error
+                        font-size: 10px
+                        font-family: $fontFamily
+                        color: $colorRed
+                    .form-control,
+                    input,
+                    .btn-pale,
+                    .btn-solid
+                        &:focus
+                            border-color: none
+                            box-shadow: 0 0 0 3px $colorLemon
+                #password-inputs
+                    display: flex
+                    margin-bottom: 15px
+                    .password-1
+                        display: inline
+                        padding-left: 0px
+                    .password-2
+                        display: inline
+                        padding-right: 0px
+                .form-group__checkbox
+                    p,
+                    label
+                        font-size: 10px
+                        font-family: $fontFamily
+                        color: $colorBlack
+                    .checkbox-option--inline
+                        display: flex
+                        margin-bottom: 0px
+                        .checkbox-option
+                            padding-bottom: 10px
+                        #subscribe-email
+                            display: inline
+                        .checkbox-option-label-email
+                            padding-left: 5px
+                        .checkbox-option-label
+                            display: inline
+                .required-form-text
+                    font-weight: bold
+                    font-size: 10px
+                .btn--pale
+                    color: $colorWhite
+                    background-color: $colorDodgerBlue
+                    border-color: $colorDodgerBlue
+                .btn--solid
+                    color: $colorWhite
+                    background-color: $colorPurpleHeart
+                    border-color: $colorPurpleHeart
+
+.d-none
+    visibility: hidden

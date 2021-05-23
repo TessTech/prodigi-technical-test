@@ -1,15 +1,8 @@
-// const checkRequestSignUp = (callback: Require): void => {
-//   if (document.querySelector('.sign-up') !== null) {
-//     callback(['jquery'], ($: JQueryStatic, signUp: Page.SignUp): void => {
-//       signUp.init();
-//     });
-//   }
-// };
-
-// const init = (): void => {
-//   checkRequestSignUp(requirejs);
-// };
-
-// return {
-//   init,
-// };
+var checkRequestSignUp = function (callback) {
+  if (document.querySelector('#sign-up') !== null) {
+    callback(['components/sign-up.min'], function (planit) {
+      planit.init();
+    });
+  }
+};
+//# sourceMappingURL=main.js.map

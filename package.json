@@ -1,6 +1,6 @@
 {
   "name": "prodigi-technical-test",
-  "version": "2.8.1",
+  "version": "1.0.0",
   "description": "Sign up page for my Prodigi technical test.",
   "main": "dist/js/main.js",
   "style": "src/sass/main.css",
@@ -16,10 +16,9 @@
   },
   "author": "Tess Bryant",
   "devDependencies": {
-    "jquery": "^3.4.1"
+    "http-server": "^0.12.3"
   },
   "dependencies": {
-    "http-server": "^0.12.3",
     "typings": "^2.1.1"
   }
 }
