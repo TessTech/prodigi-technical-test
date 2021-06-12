@@ -19,4 +19,4 @@ $('#sign-up-button').on('click', function (evt) {
 function tenMinuteReminder() {
     alert('You have not completed the Sign up form. Remember to sign up!');
 }
-setTimeout(tenMinuteReminder, 600000);
+setTimeout(tenMinuteReminder, 10000);
